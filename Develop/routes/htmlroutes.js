@@ -6,7 +6,7 @@ router.get("/", (req, res) =>
 );
 
 // GET Route for feedback page
-router.get("/feedback", (req, res) =>
+router.get("/notes", (req, res) =>
   res.sendFile(path.join(__dirname, "../public/notes.html"))
 );
 module.exports = router;
